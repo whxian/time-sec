@@ -19,7 +19,7 @@
             if(min < 10){t += "0";}
             t += min + ":";
             if(sec < 10){t += "0";}
-            t += sec.toFixed(2);
+            t += sec;
         }
         return t;
     }
@@ -40,5 +40,5 @@
         s = Number(hour*3600) + Number(min*60) + Number(sec);
 
         return s;
-    };
+    };
     ```
