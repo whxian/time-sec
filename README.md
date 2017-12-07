@@ -3,6 +3,7 @@
 
 #### 1. 秒 转为 时分秒（00:00:00）
     ```
+    
     var sec_to_time = function(s) {
         var t;
         if(s > -1){
@@ -29,6 +30,7 @@
 
 #### 2. 时分秒（00:00:00） 转为 秒
     ```
+    
     var time_to_sec = function (time) {
         var s = '';
 
