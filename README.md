@@ -2,8 +2,7 @@
 时分秒与秒之间的转换
 
 #### 1. 秒 转为 时分秒（00:00:00）
-    ```
-    
+```    
     var sec_to_time = function(s) {
         var t;
         if(s > -1){
@@ -24,12 +23,12 @@
         }
         return t;
     }
-    ```
+```
 
 
 
 #### 2. 时分秒（00:00:00） 转为 秒
-    ```
+```
     
     var time_to_sec = function (time) {
         var s = '';
@@ -42,4 +41,4 @@
 
         return s;
     };
-    ```
+```
